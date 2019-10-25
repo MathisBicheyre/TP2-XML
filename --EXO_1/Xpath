@@ -1,0 +1,15 @@
+Exercise 1:
+
+Q1.1) //composition
+Q1.2) //performance[soloist]/composition
+Q1.3) //performance[not(soloist) and orchestra]
+Q1.4) //CD[publisher='Deutsche Grammophon']/performance[orchestra='London Symphony Orchestra']/soloist
+Q1.5) //CD/[performance/orchestra='London Symphony Orchestra']]
+
+Exercise 2:
+
+Q2.1) /liste/livre[2]/*
+Q2.2) /liste/livre[1]/following-sibling::livre/titre
+Q2.3) /liste/livre[2]/following-sibling::livre/*
+Q2.4) /liste/livre[titre/@genre='jeu'][last()]
+Q2.5) /liste/livre[parution='2006'][2]/titre
